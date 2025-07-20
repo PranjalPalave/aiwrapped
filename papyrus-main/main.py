@@ -28,5 +28,9 @@ def qa():
         return jsonify({"error": "No question provided."})
     return jsonify({"result": "Send a POST request with a question."})
 
+print("Starting Flask app...")
+
 if __name__ == "__main__":
     app.run(debug=True, port=5001)
+    print("App has stopped")
+
