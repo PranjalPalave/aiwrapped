@@ -10,5 +10,5 @@ print("Before app.run()")   # Debug print
 
 if __name__ == "__main__":
     print("Starting Flask app...")  # Debug print
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5002)
     print("App has stopped")  # This only prints after server stops
